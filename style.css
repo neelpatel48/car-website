@@ -69,7 +69,6 @@ html {
 
 #rightnav {
     display: flex;
-
 }
 
 #rightnav button {
@@ -85,7 +84,6 @@ html {
     font-weight: normal;
     background-color: lightcyan;
     color: gray;
-    box-shadow: 2px 2px 2px;
 }
 
 #rightnav button:hover {
