@@ -30,7 +30,7 @@ html {
 }
 
 #logo {
-    margin: 5px 14px;
+    margin: 5px 12px;
 
 }
 
@@ -72,18 +72,14 @@ html {
 }
 
 #rightnav button {
-    outline: none;
-    padding: 10px 19px;
+    padding: 15px 20px;
     border-radius: 25px;
     border: none;
-    line-height: 30px;
-    text-transform: capitalize;
     cursor: pointer;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    background-color: lightcyan;
-    color: gray;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C3F8FF;
+    color: rgb(0, 0, 0);
 }
 
 #rightnav button:hover {
@@ -147,149 +143,6 @@ html {
 h2 {
     text-align: center;
 }
-
-/* service section */
-#services-container {
-    padding-top: 15px;
-    border: none;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 6px;
-    background-color: aliceblue;
-}
-
-.first {
-    font-size: 2rem;
-    padding-left: 30px;
-    margin: 10px;
-}
-
-
-#services {
-    margin: 25px 30px;
-    display: flex;
-    justify-content: center;
-
-}
-
-
-#services .box {
-    border: none;
-    padding: 15px;
-    margin: 2px 5px;
-    background-color: whitesmoke;
-}
-
-.box:hover {
-    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.3);
-}
-
-#services img {
-    padding: 0px;
-    height: 15rem;
-    margin: auto;
-    display: block;
-}
-
-#services p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-hr {
-    border: none;
-    border-top: dotted;
-    width: 6%;
-    border-width: 8px;
-    margin: auto;
-    color: #324141;
-
-}
-
-/* service section-2 */
-#services-container-2 {
-    padding-top: 15px;
-    border: none;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 6px;
-    background-color: aliceblue;
-}
-
-.first-2 {
-    font-size: 2rem;
-    padding-left: 30px;
-    margin: 10px;
-}
-
-
-#services-2 {
-    margin: 25px 30px;
-    display: flex;
-    justify-content: center;
-
-}
-
-
-#services-2 .box-2 {
-    border: none;
-    padding: 15px;
-    margin: 2px 5px;
-    background-color: whitesmoke;
-}
-
-.box-2:hover {
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
-}
-
-#services-2 img {
-    padding: 0px;
-    height: 15rem;
-    margin: auto;
-    display: block;
-}
-
-#services-2 p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-hr {
-    border: none;
-    border-top: dotted;
-    width: 7%;
-    border-width: 9px;
-    margin: 10px auto;
-    color: #324141;
-
-}
-
-
-/* client section */
-
-#client-section {
-    position: static;
-    height: 260px;
-    margin: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-
-}
-
-
-#clients {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#clients img {
-    height: 130px;
-}
-
-.client-item {
-    padding: 10px;
-}
-
 
 /* contact section */
 #contact {
@@ -361,17 +214,6 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     padding: 10px;
-}
-
-.btn {
-    padding: 4px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    color: white;
-    font-size: 1rem;
-    border-radius: 8px;
-    margin: 13px;
-    cursor: pointer;
 }
 
 .center {
