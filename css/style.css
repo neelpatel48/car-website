@@ -144,6 +144,195 @@ h2 {
     text-align: center;
 }
 
+/* client-section */
+#client-section {
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+#clients {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding-left: 25px;
+    align-items: center;
+}
+
+#clients img {
+    height: 120px;
+}
+
+.client-item {
+    padding: 25px 20PX;
+
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h-primary {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-top: 20px;
+
+}
+
+/* services section */
+#services-container {
+    padding-top: 15px;
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+
+.first {
+    font-size: 2rem;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+#services {
+    margin: 25px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#services .box {
+    border: none;
+    padding: 15px;
+    margin: 2px 5px;
+    background-color: whitesmoke;
+}
+
+.box:hover {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#services img {
+    padding: 0px;
+    height: 15rem;
+    margin: auto;
+    display: block;
+}
+
+#services p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    width: 6%;
+    border-width: 8px;
+    margin: auto;
+    color: #324141;
+    padding-bottom: 15px;
+
+}
+
+/* service section-2 */
+#services-container-2 {
+    padding-top: 15px;
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+
+.first-2 {
+    font-size: 2rem;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+
+#services-2 {
+    margin: 25px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#services-2 .box-2 {
+    border: none;
+    padding: 15px;
+    margin: 2px 5px;
+    background-color: whitesmoke;
+}
+
+.box-2:hover {
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#services-2 img {
+    padding: 0px;
+    height: 15rem;
+    margin: auto;
+    display: block;
+}
+
+#services-2 p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    width: 7%;
+    border-width: 9px;
+    margin: 10px auto;
+    color: #324141;
+
+}
+
+/* contact section */
+#contact {
+    margin: 0;
+    background-color: #CDF0EA;
+    padding: 20px;
+
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+#contact-box input,
+#contact-box textarea {
+    padding: 0.3rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=email],
+input[type=name],
+input[type=phone],
+textarea {
+    margin-top: 8px;
+}
+
+
+#contact-box form {
+    width: 35%;
+}
+
 footer {
     background-color: black;
     color: white;
