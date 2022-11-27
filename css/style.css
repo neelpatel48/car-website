@@ -44,8 +44,6 @@ html {
 
 #leftnav {
     display: flex;
-
-
 }
 
 #leftnav li {
@@ -63,7 +61,7 @@ html {
 }
 
 #leftnav li a:hover {
-    color: lightblue;
+    color: #31E1F7;
     text-decoration: overline;
 }
 
@@ -92,105 +90,82 @@ html {
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: lightgray;
-    border-radius: 5px;
-}
-
-#home::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.9;
-
-
-}
-
-#home h1 {
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#home p {
-    color: black;
-    font-size: 1rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #BFFFF0;
 }
 
 #home img {
-    /* border: 1px solid white; */
-
     margin: 8px 16px;
     height: 70%;
     width: 60%;
-    border-radius: 5px;
     padding-bottom: 20px;
-    /* box-shadow: 2px 2px 5px black; */
 }
 
 .home-text {
     font-family: cursive;
     font-size: 3.3rem;
     padding: 10px;
-    color: #1E5128;
-}
-
-h2 {
+    color: #1A1A40;
     text-align: center;
 }
+
 
 /* client-section */
 #client-section {
     margin: 0;
-    background-color: #F9F9F9;
+    background-color: #CDFCF6;
 }
 
 #clients {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 5px;
-    padding-left: 25px;
+    margin-left: 35px;
+    padding-bottom: 4rem;
     align-items: center;
 }
 
 #clients img {
     height: 120px;
+    border-radius: 4rem;
 }
 
 .client-item {
     padding: 25px 20PX;
-
-
 }
 
 h3 {
-    text-align: center;
     font-size: 1.5rem;
     padding-top: 5px;
+    padding-right: 25px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.h-primary {
+.heading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    padding-top: 20px;
+    padding: 2rem;
+}
 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* services section */
-#services-container {
-    padding-top: 15px;
+.main-container {
     border: none;
-    margin: 10px;
+    margin: 0;
+    padding: 25px;
+    background-color: #EFF8FF;
+}
+
+#services-container {
+    background-color: #CDFCF6;
     padding: 15px;
-    border-radius: 6px;
-    background-color: aliceblue;
+    margin-top: 5rem;
+    box-shadow: 0 1px 3px rgb(36 39 44 / 15%);
+    border-radius: 5px;
 }
 
 .first {
@@ -210,7 +185,6 @@ h3 {
     border: none;
     padding: 15px;
     margin: 2px 5px;
-    background-color: whitesmoke;
 }
 
 .box:hover {
@@ -221,6 +195,7 @@ h3 {
     padding: 0px;
     height: 15rem;
     margin: auto;
+    margin-bottom: 10px;
     display: block;
 }
 
@@ -228,25 +203,37 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-    border: none;
-    border-top: dotted;
-    width: 6%;
-    border-width: 8px;
-    margin: auto;
-    color: #324141;
-    padding-bottom: 15px;
+.car_name {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: normal;
+    font-family: roboto, Sans-Serif, Arial;
+    padding: 10px;
+    text-decoration: none;
+}
 
+.price {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: normal;
+    font-family: roboto, Sans-Serif, Arial;
+    padding: 10px;
 }
 
 /* service section-2 */
-#services-container-2 {
-    padding-top: 15px;
+.main-container-2 {
     border: none;
-    margin: 10px;
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 50px;
+    background-color: #EFF8FF;
+}
+
+#services-container-2 {
+    background-color: #CDFCF6;
     padding: 15px;
-    border-radius: 6px;
-    background-color: aliceblue;
+    box-shadow: 0 1px 3px rgb(36 39 44 / 15%);
+    border-radius: 5px;
 }
 
 .first-2 {
@@ -255,7 +242,6 @@ hr {
     margin: 10px;
 }
 
-
 #services-2 {
     margin: 25px 30px;
     display: flex;
@@ -263,20 +249,19 @@ hr {
 
 }
 
-
 #services-2 .box-2 {
     border: none;
     padding: 15px;
     margin: 2px 5px;
-    background-color: whitesmoke;
 }
 
 .box-2:hover {
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 #services-2 img {
     padding: 0px;
+    padding-bottom: 10px;
     height: 15rem;
     margin: auto;
     display: block;
@@ -289,9 +274,10 @@ hr {
 hr {
     border: none;
     border-top: dotted;
-    width: 7%;
-    border-width: 9px;
-    margin: 10px auto;
+    width: 6%;
+    border-width: 8px;
+    margin: auto;
+    margin-top: 40px;
     color: #324141;
 
 }
@@ -301,38 +287,71 @@ hr {
     margin: 0;
     background-color: #CDF0EA;
     padding: 20px;
+}
 
+.h-primary {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-top: 20px;
+
+}
+
+.contact_img {
+    padding: 10px;
+    padding-left: 6rem;
+    height: 25rem;
 }
 
 #contact-box {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-
+    float: right;
+    padding: 50px 120px;
 }
 
-#contact-box input,
+#contact-box {
+    width: 37%;
+}
+
+#contact-box input[type=email],
+input[type=text],
+input[type=phone],
 #contact-box textarea {
-    padding: 0.3rem;
+    padding: 0.4rem;
+    margin-top: 8px;
     width: 100%;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-input[type=email],
-input[type=name],
-input[type=phone],
-textarea {
-    margin-top: 8px;
+.submit {
+    text-align: center;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: none;
+    font-size: 20px;
+    background-color: #A3C7D6;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+input[type=submit]:hover {
+    background-color: #9F73AB;
 }
 
 
-#contact-box form {
-    width: 35%;
-}
 
+
+
+
+/* footer */
 footer {
     background-color: black;
     color: white;
