@@ -86,37 +86,42 @@ html {
 /* client-section */
 #client-section {
     margin: 0;
-    background-color: #F9F9F9;
+    background-color: #CDFCF6;
 }
 
 #clients {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 5px;
-    padding-left: 25px;
+    margin-left: 35px;
+    padding-bottom: 4rem;
     align-items: center;
 }
 
 #clients img {
     height: 120px;
+    border-radius: 4rem;
 }
 
 .client-item {
     padding: 25px 20PX;
-
-
 }
 
 h3 {
-    text-align: center;
     font-size: 1.5rem;
     padding-top: 5px;
+    padding-right: 25px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.h-primary {
+.heading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    padding-top: 20px;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
